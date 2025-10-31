@@ -1,6 +1,18 @@
-[package]
-name = "rust-rest-ecommerce"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+members = [
+    
+    "api",
+    "application",
+    "domain",
+    "infrastructure",
+    "presentation",
 
-[dependencies]
+    "modules/users",
+    "modules/auth",
+    "modules/products",
+    "modules/orders",
+    "modules/payments",
+    "modules/inventory",
+    "modules/reviews",
+    "modules/notifications"
+]
