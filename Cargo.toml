@@ -5,6 +5,7 @@ members = [
     "domain",
     "infrastructure",
     "presentation",
+    "common",
 
     "modules/users",
     "modules/auth",
@@ -14,4 +15,4 @@ members = [
     "modules/inventory",
     "modules/reviews",
     "modules/notifications"
-]
+    ]
